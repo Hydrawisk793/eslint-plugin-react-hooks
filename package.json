@@ -1,57 +1,55 @@
 {
-  "name": "eslint-plugin-react-hooks-custom",
-  "description": "ESLint rules for React Hooks",
-  "version": "4.2.0",
-  "author": "Facebook",
-  "contributors": [
-    "Facebook",
-    "Hydrawisk793 <hyw793@gmail.com>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Hydrawisk793/eslint-plugin-react-hooks-custom.git"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "keywords": [
-    "eslint",
-    "eslint-plugin",
-    "eslintplugin",
-    "react"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Hydrawisk793/eslint-plugin-react-hooks-custom/issues"
-  },
-  "engines": {
-    "node": ">=10"
-  },
-  "homepage": "https://github.com/Hydrawisk793/eslint-plugin-react-hooks-custom",
-  "scripts": {
-    "build": "rm -rf dist && webpack --mode production -c webpack.config.js",
-    "prepack": "npm install && npm run build"
-  },
-  "peerDependencies": {
-    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.12.8",
-    "@babel/core": "^7.12.9",
-    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
-    "@babel/plugin-transform-reserved-words": "^7.12.1",
-    "@babel/preset-env": "^7.12.7",
-    "@typescript-eslint/parser-v2": "npm:@typescript-eslint/parser@^2.26.0",
-    "@typescript-eslint/parser-v3": "npm:@typescript-eslint/parser@^3.10.0",
-    "@typescript-eslint/parser-v4": "npm:@typescript-eslint/parser@^4.1.0",
-    "babel-loader": "^8.2.2",
-    "terser-webpack-plugin": "^4.2.3",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-node-externals": "^2.5.2"
-  }
+    "name": "eslint-plugin-react-hooks-custom",
+    "version": "4.2.0",
+    "description": "ESLint rules for React Hooks",
+    "author": "Facebook",
+    "contributors": [
+        "Facebook",
+        "Hydrawisk793 <hyw793@gmail.com>"
+    ],
+    "license": "MIT",
+    "main": "dist/index.js",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "keywords": [
+        "eslint",
+        "eslint-plugin",
+        "eslintplugin",
+        "react"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hydrawisk793/eslint-plugin-react-hooks-custom.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Hydrawisk793/eslint-plugin-react-hooks-custom/issues"
+    },
+    "engines": {
+        "node": ">=10"
+    },
+    "homepage": "https://github.com/Hydrawisk793/eslint-plugin-react-hooks-custom",
+    "scripts": {
+        "build": "rm -rf dist && webpack --mode production -c webpack.config.js",
+        "prepack": "npm install && npm run build"
+    },
+    "peerDependencies": {
+        "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.8",
+        "@babel/core": "^7.12.9",
+        "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+        "@babel/plugin-transform-reserved-words": "^7.12.1",
+        "@babel/preset-env": "^7.12.7",
+        "@typescript-eslint/parser-v2": "npm:@typescript-eslint/parser@^2.26.0",
+        "@typescript-eslint/parser-v3": "npm:@typescript-eslint/parser@^3.10.0",
+        "@typescript-eslint/parser-v4": "npm:@typescript-eslint/parser@^4.1.0",
+        "babel-loader": "^8.2.2",
+        "terser-webpack-plugin": "^4.2.3",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-node-externals": "^2.5.2"
+    }
 }

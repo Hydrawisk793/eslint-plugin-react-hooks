@@ -47,7 +47,6 @@
         "@typescript-eslint/parser-v3": "npm:@typescript-eslint/parser@^3.10.0",
         "@typescript-eslint/parser-v4": "npm:@typescript-eslint/parser@^4.1.0",
         "babel-loader": "^8.2.2",
-        "terser-webpack-plugin": "^4.2.3",
         "webpack": "^4.44.2",
         "webpack-cli": "^3.3.12",
         "webpack-node-externals": "^2.5.2"

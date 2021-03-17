@@ -1,11 +1,9 @@
-var path = require("path");
-
-var TerserPlugin = require("terser-webpack-plugin");
-var nodeExternals = require("webpack-node-externals");
+const path = require("path");
+const nodeExternals = require("webpack-node-externals");
 
 module.exports = (function ()
 {
-    var outputDirectoryName = "dist";
+    const outputDirectoryName = "dist";
 
     return {
         entry : path.resolve(__dirname, "src", "index.js"),
@@ -16,9 +14,6 @@ module.exports = (function ()
             library : "eslintPluginReactHooksCustom",
             libraryTarget : "umd",
             globalObject : "this"
-        },
-        optimization : {
-            minimizer : [new TerserPlugin()]
         },
         plugins : [],
         module : {
